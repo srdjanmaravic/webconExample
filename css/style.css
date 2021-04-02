@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  color: #1e242b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../img/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.button {
+  background: transparent;
+  border: 2px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.button:hover {
+  color: #1e242b;
+  background: #fff;
+  text-decoration: none;
+}
+
+nav.stickyAdd {
+  background: rgba(2, 190, 206, 0.9);
+  padding: 15px;
+  -webkit-box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+nav.stickyAdd .navbar-brand {
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+}
+
+nav.stickyAdd .navbar-brand:hover {
+  color: #1e242b;
+}
+
+nav.stickyAdd .nav-link:hover {
+  color: #1e242b;
+}
+
+nav .navbar-brand {
+  color: #02bece;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+nav .navbar-brand:hover {
+  color: #fff;
+}
+
+nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav .nav-link:hover {
+  color: #02bece;
+}
+
+#home {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/header.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/header.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+#home .container {
+  height: 100vh;
+}
+
+#home .container h1 {
+  color: #02bece;
+  font-size: 4rem;
+}
+
+#home .container p, #home .container h4 {
+  font-size: 1.7rem;
+}
+
+#home .container .element {
+  color: #fff;
+}
+
+#onama {
+  padding: 100px 0;
+}
+
+#onama a {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+#onama a:hover {
+  color: #02bece;
+}
+
+#program {
+  padding: 100px 0;
+  background: rgba(2, 190, 206, 0.8);
+}
+
+#program .card {
+  background: #000;
+  padding: 30px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#program .card i {
+  color: #02bece;
+  font-size: 3rem;
+}
+
+#program .card h3 {
+  font-size: 1.5rem;
+}
+
+#program .card h3::after {
+  display: block;
+  content: "";
+  height: 2px;
+  background: #02bece;
+  width: 100px;
+  margin: 20px auto;
+}
+
+#program .card:hover {
+  background: #1e242b;
+}
+
+#iskustvo {
+  padding: 100px 0;
+}
+
+#iskustvo .progress-bar {
+  background: #02bece;
+}
+
+#tehnologije {
+  padding: 100px 0;
+  background: rgba(2, 190, 206, 0.8);
+}
+
+#radionice {
+  padding: 100px 0;
+}
+
+#radionice img {
+  margin: 30px 0;
+}
+
+#kontakt {
+  padding: 100px 0;
+  background: rgba(2, 190, 206, 0.8);
+}
+
+#prijava {
+  padding: 100px 0;
+}
+
+footer {
+  background: rgba(2, 190, 206, 0.8);
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #1e242b;
+}
+/*# sourceMappingURL=style.css.map */
